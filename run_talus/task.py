@@ -511,7 +511,7 @@ class Task(Logger):
                     if 'Quest already completed' in str(completion_quest):
                         self.logger.info(f"Quest {quest['loyaltyRule']['name']} already completed")
                         return True
-                    if completion_quest["status"] == "processing":
+                    if completion_quest["status"] == "processing" or completion_quest["status"] == "pending":
                         self.logger.info(f"Quest {quest['loyaltyRule']['name']} is being processed...{attempt}/20...")
                         continue
                     elif completion_quest["status"] == "completed":
@@ -536,11 +536,11 @@ class Task(Logger):
         if not payload:
             payload = {}
         complete_quest_response = await self.complete_quest_request(quest['loyaltyRule']['id'], payload=payload)
-        if 'You have already been rewarded' in complete_quest_response.text:
+        if 'You have already been rewarded' in complete_quest_response.text or "You already checked in" in complete_quest_response.text:
             self.logger.info(f"Task {quest['loyaltyRule']['name']} already completed!")
             return True
         complete_quest_response = complete_quest_response.json()
-        if "Completion request added to queue" in str(complete_quest_response):
+        if "Completion request added to queue" in str(complete_quest_response) or "Link click being verified" in str(complete_quest_response):
             self.logger.info(f"Quest {quest['loyaltyRule']['name']} added to queue successfully. Waiting for completion...")
             return await self.wait_for_quest_completion(quest)
 
@@ -600,8 +600,8 @@ class Task(Logger):
             return
 
         daily_quests_ids = ["f4497591-da67-4bba-a0d7-213a61648cdf", "26951d0b-1ade-4d99-a174-7e056f0952b3",
-                        "de4146bf-6718-43a3-8212-a487d2ffda3a", "d02d47f4-6f01-43db-adab-7cb4ae805557",
-                        "9ddf77b9-3db1-4132-b077-b02a7b8ac516"]
+                            "de4146bf-6718-43a3-8212-a487d2ffda3a", "d02d47f4-6f01-43db-adab-7cb4ae805557",
+                            "9ddf77b9-3db1-4132-b077-b02a7b8ac516"]
         random.shuffle(daily_quests)
         for quest in daily_quests:
             if quest['loyaltyRule']['id'] in daily_quests_ids:
@@ -614,6 +614,7 @@ class Task(Logger):
                             twitter_url = f"https://x.com/{twitter_username}/status/{quote_id}"
                             await self.complete_quest(quest, payload={"contentUrl": twitter_url})
                 else:
+                    print(quest)
                     await self.complete_quest(quest)
 
         twitter_tasks = [quest for quest in all_quests if quest['name'] == 'Follow Us!'][0]['loyaltyGroupItems']
