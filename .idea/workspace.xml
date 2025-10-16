@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6f40301-9d73-4e09-826d-5299ed6b0b44" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/.github/workflows/coveralls.yml" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/.github/workflows/coveralls.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/.github/workflows/pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/.github/workflows/pages.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/.github/workflows/unit_test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/.github/workflows/unit_test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/.nycrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/.nycrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/src/BIP322.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/src/BIP322.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/src/Signer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/src/Signer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/src/Verifier.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/src/Verifier.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/src/bitcoinjs/DecodeScriptSignature.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/src/bitcoinjs/DecodeScriptSignature.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/src/bitcoinjs/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/src/bitcoinjs/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/src/helpers/Address.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/src/helpers/Address.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/src/helpers/BIP137.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/src/helpers/BIP137.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/src/helpers/Key.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/src/helpers/Key.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/src/helpers/VarInt.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/src/helpers/VarInt.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/src/helpers/VarStr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/src/helpers/VarStr.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/src/helpers/Witness.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/src/helpers/Witness.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/src/helpers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/src/helpers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/test/BIP322.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/test/BIP322.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/test/Signer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/test/Signer.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/test/Verifier.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/test/Verifier.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/test/bitcoinjs/DecodeScriptSignature.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/test/bitcoinjs/DecodeScriptSignature.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/test/bitcoinjs/signature.json" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/test/bitcoinjs/signature.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/test/helpers/Address.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/test/helpers/Address.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/test/helpers/BIP137.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/test/helpers/BIP137.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/test/helpers/Key.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/test/helpers/Key.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/test/helpers/VarInt.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/test/helpers/VarInt.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/test/helpers/VarStr.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/test/helpers/VarStr.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/test/helpers/Witness.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/test/helpers/Witness.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/js/bip322-js/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/utils/js/bip322-js/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/utils/js/bip322-js" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Injustive"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/acken2/bip322-js.git",
+    "accountId": "e33c59f1-1057-4604-97dd-d36f8e103b1a"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="347WbIctU3C7iyvIqXZjI4IPOqW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "last_opened_file_path": "/Users/oleksijstognij/Desktop/talus/run_talus/data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/run_talus/data" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26574.90" />
+        <option value="bundled-python-sdk-c1fac28bca04-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26574.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6f40301-9d73-4e09-826d-5299ed6b0b44" name="Changes" comment="" />
+      <created>1760565162235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760565162235</updated>
+      <workItem from="1760565163398" duration="3905000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
