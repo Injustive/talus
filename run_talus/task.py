@@ -614,7 +614,6 @@ class Task(Logger):
                             twitter_url = f"https://x.com/{twitter_username}/status/{quote_id}"
                             await self.complete_quest(quest, payload={"contentUrl": twitter_url})
                 else:
-                    print(quest)
                     await self.complete_quest(quest)
 
         twitter_tasks = [quest for quest in all_quests if quest['name'] == 'Follow Us!'][0]['loyaltyGroupItems']
